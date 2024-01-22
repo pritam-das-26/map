@@ -131,7 +131,8 @@ export class AppComponent implements OnInit {
   
     // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
     controlElevation.load("https://raruto.github.io/leaflet-elevation/examples/via-emilia.gpx");
-  
+    //checking clear funtion 
+    console.log("check method",controlElevation.clear());
    }
   
 }
